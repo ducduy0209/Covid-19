@@ -1,0 +1,187 @@
+/* Mobile and Tablet */
+
+@media only screen and (max-width: 63.9375em) {
+    * {
+        -webkit-tap-highlight-color: transparent;
+    }
+    .hideOnMobile-Tablet {
+        display: none;
+    }
+    .mb-30 {
+        margin-bottom: 32px;
+    }
+    .pd-12 {
+        padding: 0 12px;
+    }
+    .animation-img img,
+    .animation-img {
+        width: 100%;
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+    /* Header */
+    .header__wrap {
+        padding: 10px 0;
+    }
+    .header__navbar-list {
+        margin: 0;
+    }
+    .header__navbar-item {
+        margin: 0 12px;
+        display: flex;
+        align-items: center;
+    }
+    .header__navbar-item-link {
+        width: 100%;
+    }
+    /*  */
+    .nav__bars-btn {
+        display: block;
+    }
+    .container__stay-home {
+        padding: 0 0 80px 0;
+    }
+    .container__stay-home-content {
+        margin: 80px 0 60px;
+    }
+    .container__about-covid {
+        padding-top: 80px;
+    }
+    .container__test-covid,
+    .container__news,
+    .container__protection,
+    .container__spread-covid,
+    .container__map,
+    .container__covid-symptoms {
+        padding-top: 110px;
+    }
+    .container__countUp-item:not(:first-child) {
+        margin-left: 0;
+    }
+    .footer__copyright {
+        border-top: 1px solid #a6a6a6;
+    }
+}
+
+
+/* Tablet */
+
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    .hideOnTablet {
+        display: none;
+    }
+    .mt32 {
+        margin-top: 32px;
+    }
+    .mt60 {
+        margin-top: 60px;
+    }
+    .ml-16 {
+        margin-left: 16px;
+    }
+    .mr-16 {
+        margin-right: 32px;
+    }
+    .mb24 {
+        margin-bottom: 32px;
+    }
+    .pd-right {
+        padding-right: 0 !important;
+    }
+    /* Header */
+    .header__navbar-list {
+        margin: 0 38px;
+    }
+    .header__navbar-contact {
+        margin: 20px 0 36px 64px;
+    }
+    .header__navbar-item-link {
+        font-size: 1.6rem;
+    }
+    /*  */
+    .container__stay-home-content h1 {
+        font-size: 6.2rem;
+    }
+    .content-desc {
+        font-size: 1.7rem;
+    }
+    .footer__info-website p {
+        font-size: 1.3rem;
+    }
+    .footer__copyright-text {
+        font-size: 1.4rem;
+    }
+    .footer__add-info-item a,
+    .footer__info-website p {
+        font-size: 1.5rem;
+    }
+    .footer__add-info h3 {
+        font-size: 1.7rem;
+    }
+}
+
+
+/* Mobile */
+
+@media only screen and (max-width: 46.1875em) {
+    .hideOnMobile {
+        display: none;
+    }
+    .mt-32 {
+        margin-top: 32px;
+    }
+    .mt-30 {
+        margin-top: 30px;
+    }
+    .mt-60 {
+        margin-top: 60px;
+    }
+    .t-center {
+        text-align: center !important;
+    }
+    .pd-right {
+        padding-right: 18px !important;
+    }
+    .pd-left {
+        padding-left: 24px;
+    }
+    /* Header */
+    .header {
+        padding: 0 24px;
+    }
+    .header__navbar-contact {
+        margin: 20px 0 24px 24px;
+    }
+    .header__navbar-item-link {
+        font-size: 1.8rem;
+    }
+    /*  */
+    .container__stay-home-desc {
+        padding: 0 12px;
+    }
+    .content-desc {
+        padding: 0 10px;
+        font-size: 1.5rem;
+    }
+    .text-initial {
+        text-align: initial;
+    }
+    .content-title {
+        font-size: 3.4rem;
+    }
+    .Btn span {
+        font-size: 1.5rem;
+    }
+    .container__test-covid-btns:last-child {
+        margin-top: 16px;
+    }
+    .container__covid-symptoms-item span {
+        font-size: 1.5rem;
+    }
+    .container__test-covid-wrap {
+        padding: 48px 30px;
+    }
+    .footer__info-website img {
+        display: inline-block;
+    }
+}
